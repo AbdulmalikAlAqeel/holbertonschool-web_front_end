@@ -1278,3 +1278,26 @@ This task restructures the link groups within `24-index.html` by placing them in
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 24-index.html
+
+
+
+# HTML Advanced - Task 25: Secondary navigation menu
+
+## 📌 Description
+This task adds a secondary navigation menu within the `<footer>` section in `25-index.html`. Positioned in a new container (`<div>`) following the social media links, this navigation block holds links to legal and compliance pages (`Terms of Use`, `Privacy Policy`, and `Cookie Policy`) structured inside an unordered list (`<ul>`).
+
+---
+
+## 🎯 Learning Objectives
+- Implementing multi-level footer navigation structures.
+- Grouping secondary legal and policy links logically using semantic elements (`<div>`, `<ul>`, `<li>`, `<a>`).
+- Building standard web layout conventions for legal/footer navigation.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 25-index.html

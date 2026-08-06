@@ -1091,3 +1091,26 @@ This task focuses on improving the semantic structure of the section components 
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 16-index.html
+
+
+
+# HTML Advanced - Task 17: Comments
+
+## 📌 Description
+This task focuses on code readability and structure documentation in `17-index.html`. By adding informative HTML comments (`<!-- Comment -->`) and line breaks before major structural blocks (Header, Main, Footer, and all Sections), we ensure the document is easily scannable and maintainable for developers.
+
+---
+
+## 🎯 Learning Objectives
+- Understanding the proper usage of HTML comments to organize code sections.
+- Improving code readability and developer navigation (code scanning).
+- Documenting layout components cleanly.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 17-index.html

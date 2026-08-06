@@ -1255,3 +1255,26 @@ This task enhances the interactivity of card items and service components in `23
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 23-index.html
+
+
+
+# HTML Advanced - Task 24: List the links
+
+## 📌 Description
+This task restructures the link groups within `24-index.html` by placing them inside semantic unordered list structures (`<ul>` and `<li>`). Wrapping navigation links and social media links inside list structures follows web accessibility standards and prepares the navigation components for list-based CSS styling.
+
+---
+
+## 🎯 Learning Objectives
+- Structuring navigation link groups using unordered lists (`<ul>`) and list items (`<li>`).
+- Improving HTML document semantics and screen reader accessibility.
+- Maintaining proper element nesting for header and footer navigation components.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 24-index.html

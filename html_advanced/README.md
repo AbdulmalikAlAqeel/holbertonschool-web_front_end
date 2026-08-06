@@ -1467,3 +1467,26 @@ This task updates `32-styleguide.html` by copying the structure of `30-styleguid
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 32-styleguide.html
+
+
+
+# HTML Advanced - Task 33: Table
+
+## 📌 Description
+This task updates `33-styleguide.html` by copying the structure of `32-styleguide.html` and adding a **Table** section to the styleguide. It demonstrates how to structure tabular data semantically using `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, and `<td>` tags while incorporating accessibility features with the `scope` attribute (`scope="col"` and `scope="row"`).
+
+---
+
+## 🎯 Learning Objectives
+- Understanding semantic HTML table structure (`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`).
+- Implementing screen reader accessibility for tabular data using the `scope` attribute.
+- Documenting standard data table styles inside a UI styleguide.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 33-styleguide.html

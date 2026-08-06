@@ -1,34 +1,50 @@
-# HTML Advanced
+# HTML Advanced - Task 0: Create the HTML skeleton
 
-## Project Overview
-This project focuses on using semantic HTML5 tags to structure web pages according to modern standards. It covers building document skeletons, organizing content structurally, implementing media and data tables, and adhering to strict HTML accessibility and standard guidelines.
+## 📝 Overview
+This task marks the beginning of the `html_advanced` project. The objective is to set up the most fundamental HTML5 boilerplate, defining the document type and the root `<html>` element with appropriate language and text direction attributes.
 
-## Learning Objectives
-By completing this project, you will be able to explain:
-* HTML guidelines and standard best practices.
-* How to construct an HTML5 skeleton page from scratch.
-* Semantic use cases for structural tags (`<header>`, `<main>`, `<footer>`, `<article>`, `<nav>`, `<section>`, `<aside>`).
-* Appropriate use cases for `<div>` vs `<span>`.
-* Hierarchical heading structures (`<h1>` to `<h6>`).
-* Creating ordered, unordered, and definition lists.
-* Differences between media formats (SVG, GIF, PNG, JPG).
-* Embedding audio, video, and external content.
-* Structuring tabular data using `<table>`.
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `0-index.html`
 
-## Requirements
-* All files are created within the `html_advanced` directory.
-* Code complies with W3C standards (checked using W3C-Validator).
-* A `README.md` file at the root of the project folder is mandatory.
+## 🎯 Objectives & Requirements
+* Define the HTML5 doctype statement (`<!DOCTYPE html>`).
+* Create the root `<html>` element.
+* Set the language attribute (`lang="en"`).
+* Set the text direction attribute (`dir="ltr"`).
+* Maintain a clean, empty body structure inside the root element for initial validation.
 
----
+## 📄 File Content (`0-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+</html>
 
-## Tasks Overview
 
-| Task | File | Description |
-| :--- | :--- | :--- |
-| **0. Create your first webpage** | `0-index.html` | Initial HTML structure containing the doctype declaration and the root `<html>` element with `lang="en"` and `dir="ltr"` attributes. |
 
----
+# HTML Advanced - Task 1: Structure Your Webpage
 
-## Author
-* **Abdulmalik ALAqeel**
+## 📝 Overview
+This task focuses on defining the foundational structure of an HTML5 document. Building upon the base HTML root tag, this step introduces the `<head>` and `<body>` tags in their strict structural hierarchy to ensure a valid webpage skeleton.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `1-index.html`
+
+## 🎯 Objectives & Requirements
+* Duplicate the content of `0-index.html` into `1-index.html`.
+* Establish the `<head>` and `<body>` tags within the `<html>` root element.
+* Maintain the strict element ordering: `<head>` followed by `<body>`.
+* Set text direction attributes (`dir="ltr"`) and language specifications (`lang="en"`).
+
+## 📄 File Content (`1-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  </head>
+  <body>
+  </body>
+</html>

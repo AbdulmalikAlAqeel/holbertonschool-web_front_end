@@ -488,3 +488,113 @@ This task establishes proper structural heading hierarchy by introducing level 2
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 10: Level 3 headings
+
+## 📝 Overview
+This task builds upon the document structure by integrating level 3 headings (`<h3>`) inside various sections and article elements. Subheadings enhance content readability and establish detailed sub-sections within the main architecture.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `10-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `9-index.html` into `10-index.html`.
+* Inside the **Services section**, add the following level 3 headings right after `<h2>Services</h2>`:
+  * `<h3>Design & Concept</h3>`
+  * `<h3>Digital Strategy</h3>`
+  * `<h3>Content Strategy</h3>`
+  * `<h3>UX Design</h3>`
+  * `<h3>Web Development</h3>`
+  * `<h3>Social Media</h3>`
+* Inside the **Works section**, replace the text in each `<article>` with level 3 headings:
+  1. `<h3>Interior Design</h3>`
+  2. `<h3>Web Development</h3>`
+  3. `<h3>Personal Brand</h3>`
+* Inside the **About Us section**, add the following level 3 headings after `<h2>About Us</h2>`:
+  * `<h3>Who are we</h3>`
+  * `<h3>Our culture</h3>`
+  * `<h3>How we work</h3>`
+* Inside the **Latest news section**, replace the text in each `<article>` with level 3 headings:
+  1. `<h3>Hoc loco tenere se Triarius non potuit.</h3>`
+  2. `<h3>Ut alios omittam, hunc appello, quem ille unum secutus est.</h3>`
+  3. `<h3>Bestiarum vero nullum iudicium puto.</h3>`
+
+## 📄 File Content (`10-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <h1>Homepage</h1>
+      <section>
+        <h2>We help you build your brand!</h2>
+      </section>
+      <section>
+        <h2>Services</h2>
+        <h3>Design & Concept</h3>
+        <h3>Digital Strategy</h3>
+        <h3>Content Strategy</h3>
+        <h3>UX Design</h3>
+        <h3>Web Development</h3>
+        <h3>Social Media</h3>
+      </section>
+      <section>
+        <h2>Works</h2>
+        <article>
+          <h3>Interior Design</h3>
+        </article>
+        <article>
+          <h3>Web Development</h3>
+        </article>
+        <article>
+          <h3>Personal Brand</h3>
+        </article>
+      </section>
+      <section>
+        <h2>About Us</h2>
+        <h3>Who are we</h3>
+        <h3>Our culture</h3>
+        <h3>How we work</h3>
+      </section>
+      <section>
+        <h2>Latest news</h2>
+        <article>
+          <h3>Hoc loco tenere se Triarius non potuit.</h3>
+        </article>
+        <article>
+          <h3>Ut alios omittam, hunc appello, quem ille unum secutus est.</h3>
+        </article>
+        <article>
+          <h3>Bestiarum vero nullum iudicium puto.</h3>
+        </article>
+      </section>
+      <section>
+        <h2>Testimonials</h2>
+        <article>Testimonial 1</article>
+        <article>Testimonial 2</article>
+        <article>Testimonial 3</article>
+      </section>
+      <section>
+        <h2>Contact</h2>
+      </section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

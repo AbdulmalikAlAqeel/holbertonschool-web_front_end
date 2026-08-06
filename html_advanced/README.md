@@ -1114,3 +1114,26 @@ This task focuses on code readability and structure documentation in `17-index.h
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 17-index.html
+
+
+
+# HTML Advanced - Task 18: Link your logo
+
+## 📌 Description
+This task focuses on enhancing the site header functionality in `18-index.html`. The logo text (`<span>Techium</span>`) is wrapped inside a clickable anchor element (`<a>`) linking to the website root (`/`). Additionally, the link is encapsulated inside a wrapper `<div>` element for clean component grouping and future layout styling.
+
+---
+
+## 🎯 Learning Objectives
+- Implementing standard web navigation patterns by linking logos to the homepage root.
+- Wrapping inline text elements (`<span>`) with anchor elements (`<a>`).
+- Using structural container elements (`<div>`) for component isolation and styling flexibility.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 18-index.html

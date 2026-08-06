@@ -1137,3 +1137,29 @@ This task focuses on enhancing the site header functionality in `18-index.html`.
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 18-index.html
+
+
+
+# HTML Advanced - Task 19: Create new pages
+
+## 📌 Description
+This task involves creating three new HTML pages (about.html, latest_news.html, and contact.html) based on the established structure of 18-index.html. Each new page's <title> tag is updated to accurately reflect its specific section (About, Latest news, and Contact).
+
+---
+
+## 🎯 Learning Objectives
+- Reusing structural templates across multiple pages in a web project.
+- Setting distinct and appropriate page titles (<title>) for SEO and user navigation.
+- Establishing standard multi-page site architecture.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    ├── 18-index.html
+    ├── about.html
+    ├── latest_news.html
+    └── contact.html

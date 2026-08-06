@@ -1444,3 +1444,26 @@ This task updates `31-index.html` by copying the structure of `29-index.html`. I
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 31-index.html
+
+
+
+# HTML Advanced - Task 32: Typography section - using the correct tags
+
+## 📌 Description
+This task updates `32-styleguide.html` by copying the structure of `30-styleguide.html` and adding a **Typography** section to the styleguide. It focuses on using semantic HTML tags for formatting text elements, such as addresses (`<address>`), preformatted text blocks (`<pre>`), and highlighted/marked text (`<mark>`).
+
+---
+
+## 🎯 Learning Objectives
+- Utilizing `<address>` and `<br>` for structural mailing and physical locations.
+- Utilizing `<pre>` to display code blocks and preformatted text with preserved whitespace.
+- Utilizing `<mark>` to highlight and bring visual/semantic focus to specific keywords within text.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 32-styleguide.html

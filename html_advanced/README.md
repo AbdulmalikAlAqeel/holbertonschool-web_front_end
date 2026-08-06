@@ -911,3 +911,160 @@ This task introduces the inline `<span>` element within the main page header. Us
           <h3>Hoc loco tenere se Triarius non potuit.</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
         </article>
+        <article>
+          <p>Digital Life</p>
+          <h3>Ut alios omittam, hunc appello, quem ille unum secutus est.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?</p>
+        </article>
+        <article>
+          <p>Social</p>
+          <h3>Bestiarum vero nullum iudicium puto.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones.</p>
+        </article>
+      </section>
+      <section>
+        <h2>Testimonials</h2>
+        <p>We are more than a digital company</p>
+        <article>Testimonial 1</article>
+        <article>Testimonial 2</article>
+        <article>Testimonial 3</article>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p>We like to know new people</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+      </section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>
+
+
+
+# HTML Advanced - Task 15: Div
+
+## 📝 Overview
+This task introduces generic container elements (`<div>`) to wrap internal content within structural areas, including the page `<header>`, each individual `<section>`, and the page `<footer>`. Structuring content inside `<div>` wrappers provides the foundation for layout styling, responsive design containers, and CSS alignment techniques.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `15-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the contents of `14-index.html` into `15-index.html`.
+* Wrap all children of the primary `<header>` inside a `<div>` element.
+* Wrap all children of every `<section>` element inside a `<div>` element.
+* Wrap all content inside the `<footer>` tag with a `<div>` element.
+
+## 📄 File Content (`15-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      <div>
+        <span>Techium</span>
+        <nav></nav>
+      </div>
+    </header>
+    <main>
+      <h1>Homepage</h1>
+      <section>
+        <div>
+          <h2>We help you build your brand!</h2>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Services</h2>
+          <p>We work with you</p>
+          <h3>Design & Concept</h3>
+          <h3>Digital Strategy</h3>
+          <h3>Content Strategy</h3>
+          <h3>UX Design</h3>
+          <h3>Web Development</h3>
+          <h3>Social Media</h3>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Works</h2>
+          <p>Take a look in our portfolio</p>
+          <article>
+            <h3>Interior Design</h3>
+          </article>
+          <article>
+            <h3>Web Development</h3>
+          </article>
+          <article>
+            <h3>Personal Brand</h3>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>About Us</h2>
+          <p>Everything about us</p>
+          <h3>Who are we</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+          <h3>Our culture</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+          <h3>How we work</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Latest news</h2>
+          <article>
+            <p>Career</p>
+            <h3>Hoc loco tenere se Triarius non potuit.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+          </article>
+          <article>
+            <p>Digital Life</p>
+            <h3>Ut alios omittam, hunc appello, quem ille unum secutus est.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?</p>
+          </article>
+          <article>
+            <p>Social</p>
+            <h3>Bestiarum vero nullum iudicium puto.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones.</p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Testimonials</h2>
+          <p>We are more than a digital company</p>
+          <article>Testimonial 1</article>
+          <article>Testimonial 2</article>
+          <article>Testimonial 3</article>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Contact</h2>
+          <p>We like to know new people</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        Footer
+      </div>
+    </footer>
+  </body>
+</html>

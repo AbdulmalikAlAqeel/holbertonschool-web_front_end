@@ -832,3 +832,82 @@ This task expands the styleguide document (`13-styleguide.html`) by introducing 
     <footer></footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 14: Span
+
+## 📝 Overview
+This task introduces the inline `<span>` element within the main page header. Using `<span>` allows wrapping small inline content or text fragments (such as logo text) to enable targeted styling and formatting without altering the block layout.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `14-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the contents of `12-index.html` into `14-index.html`.
+* Inside the primary site `<header>`, place a `<span>` element containing the text `Techium` directly **before** the `<nav>` element.
+
+## 📄 File Content (`14-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      <span>Techium</span>
+      <nav></nav>
+    </header>
+    <main>
+      <h1>Homepage</h1>
+      <section>
+        <h2>We help you build your brand!</h2>
+      </section>
+      <section>
+        <h2>Services</h2>
+        <p>We work with you</p>
+        <h3>Design & Concept</h3>
+        <h3>Digital Strategy</h3>
+        <h3>Content Strategy</h3>
+        <h3>UX Design</h3>
+        <h3>Web Development</h3>
+        <h3>Social Media</h3>
+      </section>
+      <section>
+        <h2>Works</h2>
+        <p>Take a look in our portfolio</p>
+        <article>
+          <h3>Interior Design</h3>
+        </article>
+        <article>
+          <h3>Web Development</h3>
+        </article>
+        <article>
+          <h3>Personal Brand</h3>
+        </article>
+      </section>
+      <section>
+        <h2>About Us</h2>
+        <p>Everything about us</p>
+        <h3>Who are we</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+        <h3>Our culture</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+        <h3>How we work</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+      </section>
+      <section>
+        <h2>Latest news</h2>
+        <article>
+          <p>Career</p>
+          <h3>Hoc loco tenere se Triarius non potuit.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+        </article>

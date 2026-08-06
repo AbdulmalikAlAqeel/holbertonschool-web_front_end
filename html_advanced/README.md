@@ -228,3 +228,64 @@ This task focuses on dividing the main page content into distinct thematic group
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 6: Work, News, Testimonial articles
+
+## 📝 Overview
+This task incorporates the HTML5 `<article>` semantic element inside specific page sections. Articles represent self-contained, independent components of content, such as project cards, news items, or client reviews.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `6-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `5-index.html` into `6-index.html`.
+* Inside the **Works section**, replace the text with 3 `<article>` tags containing `Work 1`, `Work 2`, and `Work 3`.
+* Inside the **Latest news section**, replace the text with 3 `<article>` tags containing `Article 1`, `Article 2`, and `Article 3`.
+* Inside the **Testimonials section**, replace the text with 3 `<article>` tags containing `Testimonial 1`, `Testimonial 2`, and `Testimonial 3`.
+
+## 📄 File Content (`6-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      Header
+    </header>
+    <main>
+      <section>Hero section</section>
+      <section>Services section</section>
+      <section>
+        <article>Work 1</article>
+        <article>Work 2</article>
+        <article>Work 3</article>
+      </section>
+      <section>About section</section>
+      <section>
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+      </section>
+      <section>
+        <article>Testimonial 1</article>
+        <article>Testimonial 2</article>
+        <article>Testimonial 3</article>
+      </section>
+      <section>Contact section</section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

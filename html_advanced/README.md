@@ -1163,3 +1163,26 @@ holbertonschool-web_front_end/
     ├── about.html
     ├── latest_news.html
     └── contact.html
+
+
+
+# HTML Advanced - Task 20: Add links
+
+## 📌 Description
+This task focuses on building the primary navigation menu within the page header of `20-index.html`. By populating the `<nav>` container with anchor elements (`<a>`), we set up both root page links and internal section anchors (`#services`, `#works`, etc.) to lay the groundwork for smooth page scrolling and navigation in upcoming CSS modules.
+
+---
+
+## 🎯 Learning Objectives
+- Implementing site navigation inside `<nav>` elements using semantic anchor tags (`<a>`).
+- Creating root links (`/`) alongside internal section fragment anchors (`#section_id`).
+- Establishing accessible navigation architecture for multi-section landing pages.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 20-index.html

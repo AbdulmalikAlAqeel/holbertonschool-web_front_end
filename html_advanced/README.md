@@ -1327,3 +1327,26 @@ This task updates the design styleguide by creating `26-styleguide.html` from `1
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 26-styleguide.html
+
+
+
+# HTML Advanced - Task 27: Separate content
+
+## 📌 Description
+This task enhances the structural layout of the `<footer>` section in `27-index.html`. By placing a horizontal rule (`<hr>`) and a copyright statement paragraph (`<p>`) between the two main `<div>` blocks (social media links and secondary legal navigation), it creates a thematic break and credits the project.
+
+---
+
+## 🎯 Learning Objectives
+- Utilizing the horizontal rule (`<hr>`) for thematic breaks in HTML content.
+- Incorporating standard copyright notice structures in web footers.
+- Managing vertical content separation within semantic footer elements.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 27-index.html

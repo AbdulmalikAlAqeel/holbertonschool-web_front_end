@@ -1350,3 +1350,26 @@ This task enhances the structural layout of the `<footer>` section in `27-index.
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 27-index.html
+
+
+
+# HTML Advanced - Task 28: Horizontal rule example
+
+## 📌 Description
+This task updates `28-styleguide.html` by copying the structure of `26-styleguide.html` and introducing a dedicated **Horizontal rule** section. It illustrates the usage of the `<hr>` element, which is used within HTML documents to represent a thematic break between paragraph-level elements or sections.
+
+---
+
+## 🎯 Learning Objectives
+- Understanding the semantic purpose and presentation of the `<hr>` tag.
+- Documenting thematic breaks and horizontal separators inside a UI styleguide.
+- Maintaining clean section hierarchy and modular organization across styleguide files.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 28-styleguide.html

@@ -83,4 +83,47 @@ This task enhances the document header (`<head>`) by adding essential metadata f
   </head>
   <body>
   </body>
+ </html>
+
+
+
+# HTML Advanced - Task 3: Simple header, main, footer
+
+## 📝 Overview
+This task introduces basic HTML5 semantic page architecture by integrating the core structural layout elements (`<header>`, `<main>`, and `<footer>`) within the `<body>` of the document. Using semantic elements improves accessibility, SEO, and document readability.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `3-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `2-index.html` into `3-index.html`.
+* Create a `<header>` tag inside `<body>` with the text `Header`.
+* Create a `<main>` tag directly after `<header>` with the text `Main content`.
+* Create a `<footer>` tag directly after `<main>` with the text `Footer`.
+
+## 📄 File Content (`3-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      Header
+    </header>
+    <main>
+      Main content
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
 </html>

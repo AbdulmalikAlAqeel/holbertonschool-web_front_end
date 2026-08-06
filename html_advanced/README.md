@@ -1490,3 +1490,26 @@ This task updates `33-styleguide.html` by copying the structure of `32-styleguid
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 33-styleguide.html
+
+
+
+# HTML Advanced - Task 34: Details
+
+## 📌 Description
+This task updates `34-styleguide.html` by copying the structure of `33-styleguide.html` and adding a **Details** section to the styleguide. It introduces semantic HTML disclosure widgets using the `<details>` and `<summary>` elements to create expandable/collapsible content blocks with both default (closed) and expanded (`open`) states.
+
+---
+
+## 🎯 Learning Objectives
+- Implementing native HTML disclosure widgets using `<details>` and `<summary>`.
+- Understanding default collapsed state vs. expanded state via the boolean `open` attribute.
+- Documenting interactive disclosure UI components within a styleguide.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 34-styleguide.html

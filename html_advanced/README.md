@@ -1373,3 +1373,26 @@ This task updates `28-styleguide.html` by copying the structure of `26-styleguid
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 28-styleguide.html
+
+
+
+# HTML Advanced - Task 29: Client quotes
+
+## 📌 Description
+This task updates `29-index.html` by copying the structure of `27-index.html` and enriching the **Testimonials section**. It introduces semantically correct elements for client quotes by utilizing `<blockquote>` to encapsulate client testimonials and `<cite>` to reference the respective authors.
+
+---
+
+## 🎯 Learning Objectives
+- Understanding semantic HTML structure for quotation elements (`<blockquote>` and `<cite>`).
+- Integrating customer feedback and testimonials into structural web layouts.
+- Enhancing content accessibility and semantic accuracy across standard section layouts.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 29-index.html

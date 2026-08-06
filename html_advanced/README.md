@@ -598,3 +598,60 @@ This task builds upon the document structure by integrating level 3 headings (`<
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 11: Styleguide
+
+## 📝 Overview
+This task creates an independent `11-styleguide.html` document to serve as a visual reference for typographic levels. It displays all standard heading hierarchy elements from `<h1>` down to `<h6>` wrapped inside a semantic `<section>` and `<header>`.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `11-styleguide.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `3-index.html` into `11-styleguide.html`.
+* Update the page title inside `<title>` to `Styleguide - Techium`.
+* Clear any placeholder text inside `<header>`, `<main>`, and `<footer>`.
+* Inside `<main>`, create a new `<section>` containing a section `<header>`.
+* Place an `<h2>` heading inside this section header with text `Headings`.
+* Following the section header, add headings from level 1 to 6 in order:
+  * `<h1>Heading level 1</h1>`
+  * `<h2>Heading level 2</h2>`
+  * `<h3>Heading level 3</h3>`
+  * `<h4>Heading level 4</h4>`
+  * `<h5>Heading level 5</h5>`
+  * `<h6>Heading level 6</h6>`
+
+## 📄 File Content (`11-styleguide.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Styleguide - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <header>
+          <h2>Headings</h2>
+        </header>
+        <h1>Heading level 1</h1>
+        <h2>Heading level 2</h2>
+        <h3>Heading level 3</h3>
+        <h4>Heading level 4</h4>
+        <h5>Heading level 5</h5>
+        <h6>Heading level 6</h6>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

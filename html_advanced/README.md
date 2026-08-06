@@ -1419,3 +1419,28 @@ This task updates `30-styleguide.html` by building upon `28-styleguide.html` and
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 30-styleguide.html
+
+
+
+# HTML Advanced - Task 31: Address and latest news authors
+
+## 📌 Description
+This task updates `31-index.html` by copying the structure of `29-index.html`. It introduces two key semantic HTML elements:
+1. `<address>` inside the `<footer>` to hold contact/location details.
+2. `<small>` inside each article within the **Latest news** section to display author attribution in secondary print format.
+
+---
+
+## 🎯 Learning Objectives
+- Utilizing the semantic `<address>` element for contact details and geographic locations.
+- Utilizing the `<small>` element for side comments, fine print, and author credits.
+- Structuring author credits properly within `<article>` elements.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 31-index.html

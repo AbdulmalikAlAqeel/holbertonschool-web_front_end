@@ -1301,3 +1301,29 @@ This task adds a secondary navigation menu within the `<footer>` section in `25-
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 25-index.html
+
+
+
+# HTML Advanced - Task 26: Examples of lists for the styleguide
+
+## 📌 Description
+This task updates the design styleguide by creating `26-styleguide.html` from `13-styleguide.html`. It adds a comprehensive **Lists** section to showcase the formatting of the three core HTML list structures:
+- **Unordered Lists (`<ul>`)**: For bulleted items without sequential priority.
+- **Ordered Lists (`<ol>`)**: For items requiring numerical/sequential ordering.
+- **Definition Lists (`<dl>`)**: For pairing terms (`<dt>`) with their respective descriptions or definitions (`<dd>`).
+
+---
+
+## 🎯 Learning Objectives
+- Understanding semantic HTML structure for different list types (`<ul>`, `<ol>`, `<dl>`).
+- Utilizing `<dt>` (Definition Term) and `<dd>` (Definition Description) properly within a `<dl>` element.
+- Documenting list elements within a UI styleguide section.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 26-styleguide.html

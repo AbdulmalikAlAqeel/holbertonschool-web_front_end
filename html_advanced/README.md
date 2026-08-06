@@ -289,3 +289,63 @@ This task incorporates the HTML5 `<article>` semantic element inside specific pa
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 7: Navigation
+
+## 📝 Overview
+This task introduces the `<nav>` semantic element inside the site header (`<header>`). The `<nav>` element is designated for primary navigation blocks containing links to navigate across the application or website.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `7-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `6-index.html` into `7-index.html`.
+* Remove the placeholder text `Header` inside the `<header>` element.
+* Create an empty `<nav>` element inside the `<header>`.
+
+## 📄 File Content (`7-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section>Hero section</section>
+      <section>Services section</section>
+      <section>
+        <article>Work 1</article>
+        <article>Work 2</article>
+        <article>Work 3</article>
+      </section>
+      <section>About section</section>
+      <section>
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+      </section>
+      <section>
+        <article>Testimonial 1</article>
+        <article>Testimonial 2</article>
+        <article>Testimonial 3</article>
+      </section>
+      <section>Contact section</section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

@@ -1186,3 +1186,26 @@ This task focuses on building the primary navigation menu within the page header
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 20-index.html
+
+
+
+# HTML Advanced - Task 21: Add social media links
+
+## 📌 Description
+This task focuses on updating the footer component in `21-index.html`. The placeholder text inside the footer `<div>` is replaced with functional external anchor elements (`<a>`) linking to official social media profiles (Facebook, Twitter, and Instagram).
+
+---
+
+## 🎯 Learning Objectives
+- Integrating external web links using semantic anchor tags (`<a>`).
+- Enhancing footer architecture with social media navigation elements.
+- Managing structural content replacement within container elements (`<div>`).
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 21-index.html

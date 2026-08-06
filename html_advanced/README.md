@@ -1513,3 +1513,28 @@ This task updates `34-styleguide.html` by copying the structure of `33-styleguid
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 34-styleguide.html
+
+
+
+# HTML Advanced - Task 35: Replace text logo with image logo
+
+## 📌 Description
+This task updates `35-index.html` by copying the structure of `31-index.html` and replacing text-based branding (`<span>Techium</span>`) with an image logo (`logo-black.png`). It applies proper image embedding practices in both the `<header>` and `<footer>` regions using `<img>` tags with explicit `alt`, `width`, and `height` attributes.
+
+---
+
+## 🎯 Learning Objectives
+- Embedding graphic brand elements using the `<img>` tag.
+- Setting explicit image dimensions (`width` and `height`) to prevent layout shifts.
+- Ensuring web accessibility by providing meaningful alternative text (`alt`).
+- Utilizing CLI tools (`wget`/`curl`) to fetch web assets into local project directories.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    ├── logo-black.png
+    └── 35-index.html

@@ -1068,3 +1068,26 @@ This task introduces generic container elements (`<div>`) to wrap internal conte
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 16: Structure your sections
+
+## 📌 Description
+This task focuses on improving the semantic structure of the section components in the homepage (`16-index.html`). By introducing section-level `<header>` elements and grouping section contents within sibling `<div>` containers, we establish a clean, modular layout that enhances accessibility and simplifies future CSS styling.
+
+---
+
+## 🎯 Learning Objectives
+- Understanding the semantic use of the `<header>` tag within `<section>` boundaries.
+- Organizing section content using block-level sibling elements (`<header>` and `<div>`).
+- Enhancing HTML document hierarchy and structural readability.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 16-index.html

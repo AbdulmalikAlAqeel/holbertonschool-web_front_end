@@ -349,3 +349,64 @@ This task introduces the `<nav>` semantic element inside the site header (`<head
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 8: Level 1 headings
+
+## 📝 Overview
+This task focuses on introducing a primary level 1 heading (`<h1>`) inside the `<main>` structural element. Every proper HTML document requires an `<h1>` to define the primary topic or title of the page content for accessibility and SEO.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `8-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `7-index.html` into `8-index.html`.
+* Create a level 1 heading (`<h1>`) inside the `<main>` element, positioned before all the `<section>` elements.
+* Add the text `Homepage` inside the `<h1>` tags.
+
+## 📄 File Content (`8-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <h1>Homepage</h1>
+      <section>Hero section</section>
+      <section>Services section</section>
+      <section>
+        <article>Work 1</article>
+        <article>Work 2</article>
+        <article>Work 3</article>
+      </section>
+      <section>About section</section>
+      <section>
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+      </section>
+      <section>
+        <article>Testimonial 1</article>
+        <article>Testimonial 2</article>
+        <article>Testimonial 3</article>
+      </section>
+      <section>Contact section</section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

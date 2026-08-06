@@ -1209,3 +1209,26 @@ This task focuses on updating the footer component in `21-index.html`. The place
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 21-index.html
+
+
+
+# HTML Advanced - Task 22: "Button" links
+
+## 📌 Description
+This task focuses on integrating Action/Call-to-Action (CTA) anchor links into key layout sections in `22-index.html`. These links act as buttons that connect section components with internal pages (`about.html` and `contact.html`) or placeholder actions (`#`), establishing primary navigation flows across the site.
+
+---
+
+## 🎯 Learning Objectives
+- Implementing CTA link buttons inside semantic section blocks.
+- Structuring cross-page navigation flow (`about.html`, `contact.html`).
+- Positioning action elements outside content wrappers within section containers.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 22-index.html

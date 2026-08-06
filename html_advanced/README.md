@@ -772,3 +772,63 @@ This task integrates the paragraph element (`<p>`) throughout the document to st
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 13: Styleguide paragraphs
+
+## 📝 Overview
+This task expands the styleguide document (`13-styleguide.html`) by introducing a dedicated paragraph section. This section serves to visually test and demonstrate subtitles and body paragraph text styling alongside headings.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `13-styleguide.html`
+
+## 🎯 Objectives & Requirements
+* Copy the contents of `11-styleguide.html` into `13-styleguide.html`.
+* Inside `<main>`, create a new `<section>` after the existing Headings section.
+* Inside this new section:
+  * Create a `<header>` containing an `<h2>` heading with the text `Paragraph`.
+  * After the header, add an `<h2>` heading with text `Heading with a subtitle`.
+  * Add a subtitle paragraph (`<p>This is my subtitle</p>`).
+  * Add a second body paragraph containing the specified text block.
+
+## 📄 File Content (`13-styleguide.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Styleguide - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <header>
+          <h2>Headings</h2>
+        </header>
+        <h1>Heading level 1</h1>
+        <h2>Heading level 2</h2>
+        <h3>Heading level 3</h3>
+        <h4>Heading level 4</h4>
+        <h5>Heading level 5</h5>
+        <h6>Heading level 6</h6>
+      </section>
+      <section>
+        <header>
+          <h2>Paragraph</h2>
+        </header>
+        <h2>Heading with a subtitle</h2>
+        <p>This is my subtitle</p>
+        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

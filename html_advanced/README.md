@@ -173,3 +173,58 @@ This task introduces the `<aside>` semantic element used to represent secondary 
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 5: Section
+
+## 📝 Overview
+This task focuses on dividing the main page content into distinct thematic groupings using the HTML5 `<section>` element. Structural sections provide logical layout architecture for different parts of the homepage (such as hero, services, about, and contact sections).
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `5-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `3-index.html` into `5-index.html`.
+* Remove the placeholder text inside the `<main>` element.
+* Create seven `<section>` elements inside `<main>` containing the following text values in exact order:
+  1. `Hero section`
+  2. `Services section`
+  3. `Works section`
+  4. `About section`
+  5. `Latest news section`
+  6. `Testimonials section`
+  7. `Contact section`
+
+## 📄 File Content (`5-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      Header
+    </header>
+    <main>
+      <section>Hero section</section>
+      <section>Services section</section>
+      <section>Works section</section>
+      <section>About section</section>
+      <section>Latest news section</section>
+      <section>Testimonials section</section>
+      <section>Contact section</section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

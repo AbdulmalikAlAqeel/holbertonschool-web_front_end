@@ -127,3 +127,49 @@ This task introduces basic HTML5 semantic page architecture by integrating the c
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 4: Aside
+
+## 📝 Overview
+This task introduces the `<aside>` semantic element used to represent secondary content related to the primary section (such as sidebars, callout boxes, or supplementary notes). In this task, a new dedicated page for articles (`article.html`) is created.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `article.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `3-index.html` into a new file named `article.html`.
+* Update the page title inside `<title>` to `Article - Techium`.
+* Insert an `<aside>` element inside the `<main>` element, positioned after the main content text.
+* Add the text `Aside` inside the `<aside>` tags.
+
+## 📄 File Content (`article.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Article - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      Header
+    </header>
+    <main>
+      Main content
+      <aside>
+        Aside
+      </aside>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

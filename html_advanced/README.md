@@ -410,3 +410,81 @@ This task focuses on introducing a primary level 1 heading (`<h1>`) inside the `
     </footer>
   </body>
 </html>
+
+
+
+# HTML Advanced - Task 9: Level 2 headings
+
+## 📝 Overview
+This task establishes proper structural heading hierarchy by introducing level 2 headings (`<h2>`) into each `<section>` of the document. Section headings provide semantic context and structure for search engines and screen readers.
+
+## 📁 Repository Structure
+* **GitHub repository:** `holbertonschool-web_front_end`
+* **Directory:** `html_advanced`
+* **File:** `9-index.html`
+
+## 🎯 Objectives & Requirements
+* Copy the content of `8-index.html` into `9-index.html`.
+* Inside each `<section>`, remove placeholder text and add an `<h2>` heading with the following specified titles:
+  * **Hero section:** `<h2>We help you build your brand!</h2>`
+  * **Services section:** `<h2>Services</h2>`
+  * **Works section:** `<h2>Works</h2>`
+  * **About section:** `<h2>About Us</h2>`
+  * **Latest news section:** `<h2>Latest news</h2>`
+  * **Testimonials section:** `<h2>Testimonials</h2>`
+  * **Contact section:** `<h2>Contact</h2>`
+
+## 📄 File Content (`9-index.html`)
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Homepage - Techium</title>
+    <meta name="description" content="Techium is a digital agency">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.png">
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <h1>Homepage</h1>
+      <section>
+        <h2>We help you build your brand!</h2>
+      </section>
+      <section>
+        <h2>Services</h2>
+      </section>
+      <section>
+        <h2>Works</h2>
+        <article>Work 1</article>
+        <article>Work 2</article>
+        <article>Work 3</article>
+      </section>
+      <section>
+        <h2>About Us</h2>
+      </section>
+      <section>
+        <h2>Latest news</h2>
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+      </section>
+      <section>
+        <h2>Testimonials</h2>
+        <article>Testimonial 1</article>
+        <article>Testimonial 2</article>
+        <article>Testimonial 3</article>
+      </section>
+      <section>
+        <h2>Contact</h2>
+      </section>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>

@@ -1232,3 +1232,26 @@ This task focuses on integrating Action/Call-to-Action (CTA) anchor links into k
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 22-index.html
+
+
+
+# HTML Advanced - Task 23: Services, Works, Latest news links
+
+## 📌 Description
+This task enhances the interactivity of card items and service components in `23-index.html`. By wrapping all level 3 heading texts (`<h3>`) within the Services, Works, and Latest news sections inside placeholder anchor elements (`<a href="#">`), we prepare these card titles to act as navigable links to detailed service pages, portfolio items, or news articles.
+
+---
+
+## 🎯 Learning Objectives
+- Converting standard headings (`<h3>`) into navigable links using inline anchor tags (`<a>`).
+- Implementing clickable title semantics for cards, services, and article components.
+- Maintaining valid HTML element nesting (`<h3><a href="#">Title</a></h3>`).
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 23-index.html

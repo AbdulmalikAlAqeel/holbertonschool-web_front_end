@@ -1396,3 +1396,26 @@ This task updates `29-index.html` by copying the structure of `27-index.html` an
 holbertonschool-web_front_end/
 └── html_advanced/
     └── 29-index.html
+
+
+
+# HTML Advanced - Task 30: Examples of quotes
+
+## 📌 Description
+This task updates `30-styleguide.html` by building upon `28-styleguide.html` and adding a new **Blockquotes** section to the styleguide. It demonstrates how to properly present both inline quotes (`<q>`) and block-level citations (`<blockquote>` with `<cite>`) in HTML.
+
+---
+
+## 🎯 Learning Objectives
+- Differentiating between inline quotation elements (`<q>`) and block-level quotation elements (`<blockquote>`).
+- Using the `<cite>` tag correctly to attribute authors within quotations.
+- Standardizing quotation representations within a UI styleguide.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 30-styleguide.html

@@ -1538,3 +1538,133 @@ holbertonschool-web_front_end/
 └── html_advanced/
     ├── logo-black.png
     └── 35-index.html
+
+
+
+# HTML Advanced - Task 36: Add images to your sections
+
+## 📌 Description
+This task updates `36-index.html` by copying the structure of `35-index.html` and embedding images into multiple major content sections (**Works**, **About Us**, **Latest news**, and **Testimonials**). It practices proper semantic image placement, configuring attributes such as `alt`, `width`, and `height`, and organizing media assets inside a dedicated `images/` directory.
+
+---
+
+## 🎯 Learning Objectives
+- Integrating content images within semantic layouts (`<section>`, `<article>`).
+- Managing local media file structures (`images/` directory).
+- Setting precise image dimensions (`width` and `height`) to prevent layout shifts during rendering.
+- Applying appropriate `alt` attributes for accessible screen readers (empty `alt=""` for decorative imagery vs. descriptive text for functional/avatar images).
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    ├── logo-black.png
+    ├── images/
+    │   ├── pic-work-01.jpg
+    │   ├── pic-work-02.jpg
+    │   ├── pic-work-03.jpg
+    │   ├── pic-about-us.jpg
+    │   ├── pic-blog-01.jpg
+    │   ├── pic-blog-02.jpg
+    │   ├── pic-blog-03.jpg
+    │   ├── pic-person-01.jpg
+    │   ├── pic-person-02.jpg
+    │   └── pic-person-03.jpg
+    └── 36-index.html
+
+
+
+# HTML Advanced - Task 37: Social icons
+
+## 📌 Description
+This task creates `index.html`, the final main page file for the `html_advanced` project, by copying `36-index.html` and replacing the text-based social media links (`Facebook`, `Twitter`, and `Instagram`) in the `<footer>` with inline SVG icons. Each `<svg>` element is styled with explicit `width="25px"` and `height="25px"` attributes for proper scaling and resolution-independent display.
+
+---
+
+## 🎯 Learning Objectives
+- Embedding vector graphics using inline `<svg>` elements in HTML5.
+- Replacing text-based navigational labels with accessible graphical SVG icons.
+- Finalizing the full HTML structure for the project homepage (`index.html`).
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    ├── logo-black.png
+    ├── images/
+    └── index.html
+
+
+
+# HTML Advanced - Task 38: Add a video player in the styleguide
+
+## 📌 Description
+This task updates `38-styleguide.html` by copying the structure of `34-styleguide.html` and adding a **Video** section to the styleguide page. It incorporates the semantic HTML5 `<video>` element with interactive playback controls, automatic looping, a poster thumbnail image, and a fallback message for unsupported browsers.
+
+---
+
+## 🎯 Learning Objectives
+- Embedding multimedia video content using native HTML5 `<video>` tags.
+- Configuring video player attributes: `src`, `controls`, `loop`, and `poster`.
+- Providing accessible fallback content inside media elements for older or non-supporting browsers.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 38-styleguide.html
+
+
+
+# HTML Advanced - Task 39: Add an audio player in the styleguide
+
+## 📌 Description
+This task updates `39-styleguide.html` by copying the structure of `38-styleguide.html` and adding an **Audio** section to the styleguide page. It introduces the semantic HTML5 `<audio>` element to embed an audio player with user controls and custom fallback text for browsers that lack HTML5 audio support.
+
+---
+
+## 🎯 Learning Objectives
+- Embedding audio content using the native HTML5 `<audio>` tag.
+- Enabling interactive player controls via the `controls` boolean attribute.
+- Providing fallback messages inside media tags to ensure accessibility and cross-browser resilience.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── 39-styleguide.html
+
+
+
+# HTML Advanced - Task 40: Add an iframe example in the styleguide
+
+## 📌 Description
+This task creates `styleguide.html`, the final styleguide page file for the `html_advanced` project, by copying `39-styleguide.html` and adding an **Iframe** section to the page. It introduces embedded web pages and video frames using the semantic HTML5 `<iframe>` element, configured with strict accessible titles, explicit dimensions, and fallback content.
+
+---
+
+## 🎯 Learning Objectives
+- Embedding external web pages and media frames via the `<iframe>` tag.
+- Configuring key frame attributes: `src`, `title`, `width`, and `height`.
+- Enhancing web accessibility by providing meaningful `title` attributes on embedded frame containers.
+
+---
+
+## 📂 Project Structure
+
+```text
+holbertonschool-web_front_end/
+└── html_advanced/
+    └── styleguide.html

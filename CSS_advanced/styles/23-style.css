@@ -553,7 +553,7 @@ ul.row {
   background: var(--color-black);
 }
 
-/* Footer Section Rules */
+/* Footer Section & Typography */
 .footer {
   padding: var(--footer-padding);
 }
@@ -579,4 +579,7 @@ ul.row {
 .social-link svg {
   fill: var(--text-color);
 }
+
+
+
 
